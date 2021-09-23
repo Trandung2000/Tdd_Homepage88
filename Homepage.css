@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Gotham HTF Bold;
+    src: url(../Font/gothamhtf-bold-webfont.ttf);
+}
+@font-face{
+    font-family: Gotham HTF Book Regular;
+    src: url(../Font/gothamhtf-book-webfont.ttf);
+}
+.containers{
+padding: 30px;
+}
+.containers .section1{
+background-image: url(../images/z2784985015237_58e8227a620c1c47268cf3f3afa6f1ea.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+position: relative;
+padding: 100px 0;
+}
+.containers .section1 .list{
+    font-family: Gotham HTF Book Regular;
+    width: 30%;
+}
+.containers .section1 .list span{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-weight: 300;
+    margin-left: 50px;
+}
+.containers .section1 .text{
+    width: 100%;
+    font-family: Gotham HTF Bold;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.containers .section1 .text h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containers .section2 {
+    display: flex;
+}
+.containers .section2 .img-left{
+    background-image: url(../Images/z2784985011872_bb4fc55daaa4e1dfd9e9ebeda9c1647e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Gotham HTF Bold;
+}
+.containers .section2 .img-right{
+    background-image: url(../Images/z2784985012801_6274f4fde4d9fe83670155b96eb7e04f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Gotham HTF Bold;
+}
+p{
+    font-family: Gotham HTF Book Regular;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.containers .section3{
+    display: flex;
+}
+.section3 > .img >img{
+    width: 324px;
+    height: 300px;
+}
+.containers .section4 .box{
+    display: flex;
+    margin-top: 40px;
+}
+.containers .section4 .box .box-left{
+    width: 60%;
+    font-family: Gotham HTF Bold;
+    margin-left: 70px;
+}
+.containers .section4 .box .box-left .box-input{
+    padding: 10px 0;
+    display: flex;
+}
+.box-input>input{
+    width: 450px;
+    height: 30px;
+}
+.box-input>button{
+    padding: 7px;
+    margin-left: 2px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+}
+.containers .section4 .social{
+    margin-top: 10px;
+}
+i{
+    padding: 15px;
+    font-size: 30px;
+}
+.containers .section4 .box .box-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 50%;
+}
+.containers .section4 .box .box-right >h4{
+    font-family: Gotham HTF Bold;
+}
+.box-right>span, .box-right>h4{
+    padding-bottom: 10px;
+}
+.containers .section4 .box .box-right >span{
+    font-family: Gotham HTF Book Regular;
+    font-size: 13px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 80px 0;
+}
+.slash{
+    border-right: 1px solid #333;
+    padding: 0 20px;
+    font-family: Gotham HTF Book Regular;
+    font-size: 12px;
+}
+.slash:last-child{
+    border-right: 0;
+}
+
+
